@@ -11,8 +11,6 @@ use SitemapPlugin\Provider\UrlProviderInterface;
 
 final class SitemapIndexBuilder implements SitemapIndexBuilderInterface
 {
-    private SitemapIndexFactoryInterface $sitemapIndexFactory;
-
     /** @var UrlProviderInterface[] */
     private array $providers = [];
 
